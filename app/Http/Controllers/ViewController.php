@@ -8,7 +8,8 @@ class ViewController extends Controller
 {
     public function index(){
 
-     return view('static.index');
+      $students = config('students.students');
+      return view('static.index');
     }
     public function corso(){
 
