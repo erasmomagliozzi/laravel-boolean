@@ -18,9 +18,8 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', 'ViewController@index')->name('view_controller.home');
 Route::get('/corso', 'ViewController@corso')->name('view_controller.corso');
-Route::get('/dopo-corso', 'ViewController@dopoCorso')->name('view_controller.dopoCorso');
 
 
 // studenti
-Route::get('/students', 'StudentController@index')->name('student.home');
+Route::get('/students', 'StudentController@index')->name('student.index');
 Route::get('/students/show/{id}', 'StudentController@show')->name('student.show');

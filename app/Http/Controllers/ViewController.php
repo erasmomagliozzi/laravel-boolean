@@ -12,8 +12,9 @@ class ViewController extends Controller
     }
     public function corso(){
 
+      return view('static.corso');
     }
     public function dopoCorso(){
-
+      return view('static.dopoCorso');
     }
 }

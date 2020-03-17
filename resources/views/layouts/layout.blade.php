@@ -1,13 +1,13 @@
  @include('layouts.partials._header')
   <body>
-    <div class="container">
+    
       <header>
-
+        @yield('header')
       </header>
       <main>
-pippo
+        @yield('main')
       </main>
       <footer>
-
+        @yield('footer')
       </footer>
  @include('layouts.partials._footer')
