@@ -3,28 +3,32 @@
   'students' =>  [
     [
       'img' =>'https://www.boolean.careers/images/students/biagini.png',
-      'nome' => 'Alessandro Biagini',
-      'eta' => 25,
-      'azienda' =>'DISC SPA',
-      'ruolo' =>'web developer',
-      'descrizione' => 'Da giocatore professionista di basket a sviluppatore web. 6 mesi di impegno da MVP e un memorabile tap-in targato Boolean hanno garantito ad Alessandro un solido futuro come web developer.'
+      'genders' => 'm',
+      'name' => 'Alessandro Biagini',
+      'age' => 25,
+      'agency' =>'DISC SPA',
+      'role' =>'web developer',
+      'description' => 'Da giocatore professionista di basket a sviluppatore web. 6 mesi di impegno da MVP e un memorabile tap-in targato Boolean hanno garantito ad Alessandro un solido futuro come web developer.'
     ],
     [
       'img' =>'https://www.boolean.careers/images/students/poggini.png',
-      'nome' => 'Paola Poggini',
-      'eta' => 24,
-      'azienda' =>'Prima Assicurazioni',
-      'ruolo' =>'junior software engineer',
-      'descrizione' => 'A 24 anni, dopo aver conseguito il diploma linguistico ha deciso di intraprendere fin da subito un percorso nel mondo Tech. Ad oggi ricopre il ruolo di Junior Software Engineer.'
+      'genders' => 'f',
+      'name' => 'Paola Poggini',
+      'age' => 24,
+      'agency' =>'Prima Assicurazioni',
+      'role' =>'junior software engineer',
+      'description' => 'A 24 anni, dopo aver conseguito il diploma linguistico ha deciso di intraprendere fin da subito un percorso nel mondo Tech. Ad oggi ricopre il role di Junior Software Engineer.'
     ],
     [
       'img' =>'https://www.boolean.careers/images/students/masetti.png',
-      'nome' => 'Loana Masetti',
-      'eta' => 36,
-      'azienda' =>'The Zen Agency',
-      'ruolo' =>'web developer',
-      'descrizione' => 'Ha scoperto la passione per l\'informatica creando un blog di psicologia, ambito in cui si era specializzata durante gli studi. Il suo cuore però non vuol sentir ragione e Loana cambia carriera e diventa una ricercatissima sviluppatrice web.'
+      'genders' => 'f',
+      'name' => 'Loana Masetti',
+      'age' => 36,
+      'agency' =>'The Zen Agency',
+      'role' =>'web developer',
+      'description' => 'Ha scoperto la passione per l\'informatica creando un blog di psicologia, ambito in cui si era specializzata durante gli studi. Il suo cuore però non vuol sentir ragione e Loana cambia carriera e diventa una ricercatissima sviluppatrice web.'
     ]
 
-  ]
+  ],
+  'genders' => ['m', 'f']
 ];

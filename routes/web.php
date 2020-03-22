@@ -21,5 +21,6 @@ Route::get('/corso', 'ViewController@corso')->name('view_controller.corso');
 
 
 // studenti
-Route::get('/students', 'StudentController@index')->name('student.index');
-Route::get('/students/show/{id}', 'StudentController@show')->name('student.show');
+Route::get('/students', 'StudentController@index')->name('students.index');
+Route::get('/students/show/{slug}', 'StudentController@show')->name('students.show');
+Route::get('/students/show/id/{id}', 'StudentController@getById')->name('students.showId');

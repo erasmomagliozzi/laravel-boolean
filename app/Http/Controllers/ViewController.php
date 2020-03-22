@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class ViewController extends Controller
 {
+    private $students;
     public function index(){
 
       $students = config('students.students');

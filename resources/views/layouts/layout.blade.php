@@ -1,10 +1,11 @@
  @include('layouts.partials._header')
   <body>
-    
+
       <header>
         @yield('header')
       </header>
-      <main>
+
+      <main class="container">
         @yield('main')
       </main>
       <footer>
